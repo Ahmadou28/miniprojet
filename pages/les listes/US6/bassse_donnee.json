@@ -1,0 +1,15 @@
+[
+   {"login":"admin1","password":"passer","prenom":"ahmadou","nom":"gueye","role":"admin","image":"nm.jpg"},
+   {"login":"jou2","password":"passer","prenom":"khayrou","nom":"ndiadye","role":"joueuer","image":"weuz.jpg","score":"10"},
+   {"login":"admin2","password":"passer","prenom":"fallou","nom":"cisse","role":"admin","image":"IMG_7034.JPG","score":"30"},
+   {"login":"s","password":"s","prenom":"Garmi","nom":"Niang","role":"joueur","image":"IMG_7034.JPG","score":"8"},
+   {"login":"s","password":"s","prenom":"Mama","nom":"Ndiaye","role":"joueur","image":"mam.jpg","score":"70"},
+   {"login":"s","password":"s","prenom":"Samba","nom":"dia","role":"joueur","image":"BLEL5862.JPG","score":"20"},
+   {"login":"s","password":"s","prenom":"Oumar","nom":"Geuye","role":"joueur","image":"YDXJ7820.JPG","score":"40"},
+   {"login":"s","password":"s","prenom":"Man","nom":"ka","role":"joueur","image":"zo.jpg","score":"200"},
+   {"login":"s","password":"s","prenom":"Diarra","nom":"ndaw","role":"joueur","image":"YHWR2388.JPG","score":"300"},
+   {"login":"s","password":"s","prenom":"Lamin","nom":"camara","role":"joueur","image":"YHWR2388.JPG","score":"300"},
+   {"login":"s","password":"s","prenom":"Moustapha","nom":"Fall","role":"joueur","image":"YHWR2388.JPG","score":"300"},
+   {"login":"s","password":"s","prenom":"Abo","nom":"Thiam","role":"joueur","image":"YHWR2388.JPG","score":"300"}
+
+]

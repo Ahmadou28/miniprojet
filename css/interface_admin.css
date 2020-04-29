@@ -1,0 +1,389 @@
+body{
+    background-image: url("../Images/img-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(5, 36, 38);
+    width: 100%;
+    height: auto;
+
+}
+.header .logo{
+    height: 120px;
+    width: 5%;
+    margin-left: 30px;
+    float: left;
+
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+
+}
+.header_title{
+
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 120px;
+}
+.header_title h3{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 30px;
+}
+.form{
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-top: 55px;
+    margin-left: 30px;
+}
+.white{
+    background-color:white;
+    float: left;
+    width: 100%;
+    height: 400px;
+    box-shadow: 7px 10px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.header_white{
+    width: 100%;
+    height: 108px;
+    background-color: rgb(81, 191, 208);
+    padding-top: 12px;
+}
+.header_white h3{
+    font-size: 25px;
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 32px;
+}
+.background{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: rgb(242, 242, 242);
+    height: 750px;
+    margin-top: 10px;
+}
+.background_header{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(81, 191, 208);
+    margin-bottom: 30px;
+}
+h2{
+    padding: 25px;
+    margin: 0px;
+    color: white;
+    float: left;
+    margin-left: 30%
+}
+button{
+    float: right;
+    margin-right: 5%;
+    width: 10%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(57, 221, 214);
+    color: white;
+}
+.round{
+    width: 85px;
+    height: 85px;
+    border: 1px solid rgb(108, 148, 150);
+    border-radius: 50%;
+    margin-left: 65px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+.round .image{
+
+    width: 75px;
+    height: 75px;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.prenom_nom{
+    float: left;
+    margin-top: 25px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nom{
+    margin-left: 68px;
+}
+.logout{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+ul{
+    margin: 0px;
+}
+ul li{
+    list-style: none;
+    float: left;
+    font-size: 25px;
+    color: rgb(141, 128, 112);
+}
+
+
+ul li a{
+    text-decoration: none;
+}
+.menu{
+    padding: 10px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+.menu img{
+    float: right;
+    margin-right: 10px;
+}
+.right{
+    float: right;
+    height: 515px;
+    width: 50%;
+    margin-right: 30px;
+}
+.white-right {
+    background-color: white;
+    float: left;
+    width: 100%;
+    height: 630px;
+    box-shadow: 7px 10px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+
+}
+.nbr_question{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 40px;
+    margin-top: 10px;
+}
+.nbr-question_field{
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.ok{
+    border: none;
+    width: 15%;
+    height: 75%;
+    background-color: rgb(81, 191, 208);
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 470px;
+    border: 1px solid rgb(81, 191, 208);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 7px 10px 20px rgba(0,0,0,0.5);
+    text-align: left;
+    position: relative;
+
+}
+/* creation admin css  */
+
+.white-right .left_side{
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+}
+.white-right .right_side{
+    width: 40%;
+    float: right;
+    padding-top: 10%;
+}
+.title h3{
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    padding-top: 10px;
+    text-align: left;
+}
+.title p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(151,151,151);
+    text-align: left;
+}
+.input-form{
+    height: 60px;
+    margin: 10px 35px;
+}
+.input-form span {
+    float: left;
+    color: black;
+    font-size: 20px;
+}
+#avatar{
+    position: absolute;
+}
+.input{
+    width: 100%;
+    height: 32px;
+    background-color: rgb(240, 238, 241);
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    text-indent: 30px;
+}
+.error-form{
+    color: red;
+    width: 100%;
+    font-size: 16px;
+    font-weight:bold;
+}
+.info{
+    color: red;
+
+}
+.label{
+    margin-right: 270px;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(80, 190, 207);
+    border-radius: 50%;
+}
+.avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+label{
+    color: rgb(136, 136, 136);
+}
+.btn_compte{
+    margin-left: 20%;
+    width: 35%;
+    height: 40px;
+    background-color: rgb(80, 190, 207);;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Liste joueurs css
+
+ */
+ h3{
+color: rgb(141, 128, 112);
+}
+ .player{
+     width: 30%;
+     height: 30px;
+     float: left;
+     margin-right: 14px;
+
+ }
+
+ th{
+     border: 1px dashed black;
+    width: 160px;
+     text-align: center;
+     font-size: 20px;
+     border-bottom-right-radius:10px ;
+     border-top-left-radius:10px ;
+ }
+ td{
+     border: 1px dashed black;
+     text-align: center;
+     color: brown;
+     font-size: 20px;
+     border-bottom-right-radius:10px ;
+     border-top-left-radius:10px ;
+ }
+ .player span{
+     font-size: 25px;
+     color:rgb(141, 128, 112);
+     font-weight: bold;
+ }
+ .content .sui{
+    float: right;
+    position: absolute;
+    top: 92%;
+    font-size: 15px;
+    font-weight: bold;
+     margin-top: 0px;
+     left: 76%;
+     padding: 5px;
+     color: white;
+ background-color: rgb(81, 191, 208);
+     width: 100px;
+     text-align: center;
+}
+
+.content .pre {
+    float: left;
+    margin-right: 0px;
+    position: absolute;
+    top: 92%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0px;
+    background-color: rgb(81, 191, 208);
+    padding: 5px;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+.content a{
+    text-decoration: none;
+}
+
+
+
+ /* creation questions css */
+.content label{
+    font-size: 25px;
+}
+.content input{
+    width: 15%;
+    height: 30px;
+    background-color: rgb(247, 247, 247);
+}
+.content select{
+    width: 55%;
+    height: 39px;
+    background-color: rgb(247, 247, 247);
+}
+.plus{
+    margin-right: 0px;
+    background: none;
+    margin-top: 0px;
+}
+textarea{
+    background-color: rgb(247, 247, 247);
+}
+.content .add{
+width: 20%;
+    background-color: rgb(57, 221, 214);
+    color: white;
+    margin-top: 40%;
+    margin-left: 80%;
+}
